@@ -7,7 +7,7 @@ sudo pacman -Syyu --noconfirm
 echo "INSTALLING LY DISPLAY MANAGER"
 
 yay -S --noconfirm --needed ly-git
-sudo pacman -S --noconfirm --needed i3-gaps
+sudo pacman -S --noconfirm --needed i3-gaps xorg
 
 echo "PACKAGES INSTALLED"
 
