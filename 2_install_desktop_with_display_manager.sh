@@ -13,7 +13,7 @@ echo "PACKAGES INSTALLED"
 
 echo "ENABLING SYSTEM SERVICE FOR LY"
 
-sudo systemctl enable lightdm.service -f
+sudo systemctl enable ly -f
 sudo systemctl set-default graphical.target
 
 echo "CORRECTING MICROCODE ERROR"
