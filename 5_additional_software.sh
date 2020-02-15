@@ -19,7 +19,7 @@ yay -S --noconfirm --needed zsh zsh-syntax-highlighting zsh-completions
 yay -S --noconfirm --needed octopi
 
 echo "Setting zsh as the default shell"
-chsh /usr/bin/zsh yuri
+sudo chsh $USER -s /bin/zsh
 
 echo "Adding oh-my-zsh"
 wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O - | sh
