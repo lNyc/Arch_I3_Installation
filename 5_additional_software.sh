@@ -15,7 +15,7 @@ yay -S --noconfirm --needed grub-customizer
 yay -S --noconfirm --needed hardcode-fixer-git
 yay -S --noconfirm --needed inxi
 yay -S --noconfirm --needed yad
-yay -S --noconfirm --needed zsh zsh-syntax-highlight
+yay -S --noconfirm --needed zsh zsh-syntax-highlighting zsh-completions
 yay -S --noconfirm --needed octopi
 
 echo "Setting zsh as the default shell"
