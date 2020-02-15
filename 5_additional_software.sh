@@ -18,4 +18,4 @@ yay -S --noconfirm yad
 yay -S --noconfirm zsh
 yay -S --noconfirm octopi octopi-notifier-frameworks
 
-echo "[DONE]"
+echo "#################  REBOOT YOUR SYSTEM   ###################"
