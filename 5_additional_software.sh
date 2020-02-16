@@ -19,6 +19,7 @@ yay -S --noconfirm --needed zsh zsh-syntax-highlighting zsh-completions
 yay -S --noconfirm --needed octopi
 sh config_qemu.sh
 sh config_wallpapers.sh
+wal -i ~/Pictures/
 
 echo "Setting zsh as the default shell"
 chsh /usr/bin/zsh yuri
@@ -27,7 +28,5 @@ echo "Adding oh-my-zsh"
 wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O - | sh
 echo 'source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh \ 
 neofetch' >>  ~/.zshrc
-
-wal -i ~/Pictures/
 
 echo "#################  REBOOT YOUR SYSTEM   ###################"
