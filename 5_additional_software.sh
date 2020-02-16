@@ -21,7 +21,7 @@ sh config_qemu.sh
 sh config_wallpapers.sh
 
 echo "Setting zsh as the default shell"
-chsh /usr/bin/zsh yuri
+sudo chsh $USER -s /bin/zsh
 
 echo "Adding oh-my-zsh"
 wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O - | sh
