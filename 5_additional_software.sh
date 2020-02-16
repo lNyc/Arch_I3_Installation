@@ -28,4 +28,6 @@ wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O - 
 echo 'source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh \ 
 neofetch' >>  ~/.zshrc
 
+wal -i ~/Pictures/
+
 echo "#################  REBOOT YOUR SYSTEM   ###################"
