@@ -175,6 +175,8 @@ bindsym $mod+r mode "resize"
 #        status_command i3status
 #}
 
+exec --no-startup-id wal -R &
+
 #remove borders
 for_window [class="^.*"] border pixel 0;
 
@@ -193,9 +195,10 @@ for_window [title="^.*"] border pixel 0
 for_window [class="Thunar"] floating enable
 for_window [class="Ristretto"] floating enable
 #Personal Configuration
-exec_always --nostartup-id xrandr --output VGA-1 --primary --mode 1920x1080 --pos 0x0 --rotate normal
+
+#exec_always --nostartup-id xrandr --output VGA-1 --primary --mode 1920x1080 --pos 0x0 --rotate normal
 exec_always --nostartup-id setxkbmap -layout br
-exec picom
+#exec picom
 
 #Configuring Colors
 
