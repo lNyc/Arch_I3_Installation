@@ -1,3 +1,3 @@
 echo "Moving Pictures to home directory"
-cp home/Pictures ~/
+cp -r home/Pictures ~/
 echo "[DONE]"
